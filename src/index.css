@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root{
+    --main-color:#00adb5
+}
+.button{
+    box-shadow: 0px 2px 30px var(--main-color);
+}
+.main_color{
+    color: #00adb5;
+}
