@@ -14,14 +14,14 @@ const Header = () => {
 
           {/* Logo */}
           <div className='flex items-center gap-1 text-white'>
-            <div className='text-[35px] md:text-[44px]'>
+            <div className='text-[35px] md:text-[48px]'>
               <FaAccusoft />
             </div>
-            <h2 className='text-2xl md:text-3xl font-bold'>NH.DEV</h2>
+            <h2 className='text-2xl md:text-4  xl font-bold'>NH.DEV</h2>
           </div>
 
           {/* Desktop Menu */}
-          <div className='hidden md:flex items-center gap-10 text-[16px] text-white'>
+          <div className='hidden md:flex items-center gap-9 text-[16px] text-white'>
             <NavLink><p className='hover:text-gray-300 duration-300'>Home</p></NavLink>
             <NavLink><p className='hover:text-gray-300 duration-300'>About</p></NavLink>
             <NavLink><p className='hover:text-gray-300 duration-300'>Service</p></NavLink>
