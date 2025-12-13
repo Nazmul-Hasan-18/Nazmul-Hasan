@@ -56,7 +56,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className=' flex  flex-col lg:flex-row items-center mt-10 lg:mt-0'>
-                <img className='lg:w-106 w-66 ml-0 lg:ml-20 rounded-full img_box bg-white' src="./../../../../public/img/Img.jpg" alt="" />
+                <img className='lg:w-106 w-66 ml-0 lg:ml-20 rounded-full img_box bg-white' src="/img/Img.jpg" alt="" />
             </div>
         </div>
         </div>
