@@ -6,7 +6,7 @@ import { Link, Links } from 'react-router';
 
 const Hero = () => {
     return (
-        <div className='w-full h-400  absolute top-0 bg-black text-white py-10 lg:py-15'>
+        <div className='w-full relative top-0 bg-black text-white pt-10 pb-15 lg:py-20'>
         <div className='container mx-auto lg:px-46 px-6 mt-20 lg:grid grid grid-cols-1 lg:grid-cols-2 items-center'>
             <div className=''>
                 <p className='uppercase font-semibold font-[Quicksand]  text-gray-300'>hello,</p>
@@ -14,27 +14,27 @@ const Hero = () => {
                 <h2 className='font-[Quicksand] text-2xl lg:text-4xl font-bold'>Jr. Front-End Developer</h2>
                 <div className='flex  items-center gap-2.5 lg:gap-4 mt-4 lg:mt-8'>
                     <Link>
-                    <div className='bg-[#00adb5] hover:scale-115 box cursor-pointer duration-300 lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
+                    <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300 lg:p-3 p-2.5  rounded-full text-md lg:text-xl'>
                         <FaGithub />
                     </div>
                     </Link>
                     <Link>
-                    <div className='bg-[#00adb5] hover:scale-115 box cursor-pointer duration-300  lg:p-3 p-2.5 hover:main-color rounded-full text-md lg:text-xl'>
+                    <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300  lg:p-3 p-2.5 hover:main-color rounded-full text-md lg:text-xl'>
                         <FaLinkedinIn />
                     </div>
                     </Link>
                     <Link>
-                    <div className='bg-[#00adb5] hover:scale-115 box cursor-pointer duration-300  lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
+                    <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300  lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
                         <FaFacebookF />
                     </div>
                     </Link>
                     <Link>
-                    <div className='bg-[#00adb5] hover:scale-115 box cursor-pointer duration-300  lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
+                    <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300  lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
                         <FaInstagram />
                     </div>
                     </Link>
                 </div>
-                <div className='flex items-center py-5 gap-4 lg:gap-5 mt-4 lg:mt-6'>
+                <div className='flex items-center py-5 gap-4 lg:gap-5 mt-3 lg:mt-6'>
                     
                         <Link>
                         <div className='btn-anim relative z-1 bg-transparent overflow-hidden flex text-white items-center gap-1.5 lg:gap-2 font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
