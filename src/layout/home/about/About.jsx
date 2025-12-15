@@ -1,5 +1,6 @@
 import React from 'react';
-
+import img from "/src/img/doodle items.png"
+import img1 from "/src/img/Group 78.png"
 const About = () => {
     return (
         <div className='bg-[#222831]'>
@@ -10,9 +11,9 @@ const About = () => {
                 </div>
                 <div className='flex flex-col items-center mt-5 lg:mt-0'>
                     <div className='bg- relative'>
-                        <img  src="/src/img/doodle items.png" alt="" />
+                        <img  src={img} alt="" />
                         <div className='top-0 left-13 absolute'>
-                            <img className='w-[80%] lg:w-[90%]' src="/src/img/Group 78.png" alt="" />
+                            <img className='w-[80%] lg:w-[90%]' src={img1} alt="" />
                         </div>
                     </div>
                 </div>
