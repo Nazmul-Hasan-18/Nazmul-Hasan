@@ -3,7 +3,7 @@ import { AiOutlineExport, AiOutlineRetweet } from 'react-icons/ai';
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { LuSquareArrowOutDownRight } from 'react-icons/lu';
 import { Link, Links } from 'react-router';
-
+import img from "/public/img/Img.jpg"
 const Hero = () => {
     return (
         <div className='w-full relative top-0 bg-black text-white pt-10 pb-15 lg:py-20'>
@@ -56,7 +56,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className=' flex  flex-col lg:flex-row items-center mt-10 lg:mt-0'>
-                <img className='lg:w-106 w-66 ml-0 lg:ml-20 rounded-full img_box bg-white' src="/img/Img.jpg" alt="" />
+                <img className='lg:w-106 w-66 ml-0 lg:ml-20 rounded-full img_box bg-white' src={img} alt="" />
             </div>
         </div>
         </div>
