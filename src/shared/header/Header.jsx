@@ -23,7 +23,7 @@ const Header = () => {
           {/* Desktop Menu */}
           <div className='hidden md:flex items-center gap-9 text-[17px] text-white'>
             <NavLink><p className='hover:text-gray-300 duration-300'>Home</p></NavLink>
-            <NavLink><p className='hover:text-gray-300 duration-300'>About</p></NavLink>
+            <NavLink to="/aboutWorks"><p className='hover:text-gray-300 duration-300'>About</p></NavLink>
             <NavLink><p className='hover:text-gray-300 duration-300'>Service</p></NavLink>
             <NavLink><p className='hover:text-gray-300 duration-300'>Project</p></NavLink>
             <NavLink>

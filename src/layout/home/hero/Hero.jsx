@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='w-full relative top-0 bg-black text-white pt-10 pb-15 lg:py-20'>
         <div className='container mx-auto lg:px-46 px-6 mt-20 lg:grid grid grid-cols-1 lg:grid-cols-2 items-center'>
             <div className=''>
-                <p className='uppercase font-semibold font-[Quicksand]  text-gray-300'>hello,</p>
+                <p className='uppercase font-semibold font-[Quicksand]  text-gray-100'>hello,</p>
                 <h1 className='lg:text-[58px] text-[34px] font-bold mt-3 font-[poppins]'>I,m <span className='main_color'>Nazmul Hasan</span></h1>
                 <h2 className='font-[Quicksand] text-2xl lg:text-4xl font-bold'>Jr. Front-End Developer</h2>
                 <div className='flex  items-center gap-2.5 lg:gap-4 mt-4 lg:mt-8'>
