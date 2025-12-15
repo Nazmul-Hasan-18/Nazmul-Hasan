@@ -10,9 +10,9 @@ const About = () => {
                 </div>
                 <div className='flex flex-col items-center mt-5 lg:mt-0'>
                     <div className='bg- relative'>
-                        <img  src="/public/img/doodle items.png" alt="" />
+                        <img  src="/src/img/doodle items.png" alt="" />
                         <div className='top-0 left-13 absolute'>
-                            <img className='w-[80%] lg:w-[90%]' src="/public/img/Group 78.png" alt="" />
+                            <img className='w-[80%] lg:w-[90%]' src="/src/img/Group 78.png" alt="" />
                         </div>
                     </div>
                 </div>
