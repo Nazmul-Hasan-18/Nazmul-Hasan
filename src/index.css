@@ -15,6 +15,9 @@
 .img_box{
     box-shadow: 0px 0px 25px 10px var(--main-color);
 }
+.course:hover{
+    box-shadow: 0px 0px 25px 10px var(--main-color);
+}
 .boxh:hover{
     box-shadow: 0px 0px 6px 3px var(--main-color);
 }
