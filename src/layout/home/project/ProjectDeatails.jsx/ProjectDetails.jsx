@@ -1,5 +1,6 @@
 import React from 'react';
 import Ecomarse from "./../../../../img/Screenshot.png"
+import Ecomarse1 from "./../../../../img/nested.png"
 import { Link } from 'react-router';
 const items = [
     {
@@ -7,14 +8,22 @@ const items = [
         category_id: 1,
         img: Ecomarse,
         name: "Premium Fashion Store",
-        tittle: "Minimal & elegant e-commerce UI with fast transitions, product showcase, and luxurious feel. Using HTML CSS Tailwind Javascript and React."
+        tittle: "Minimal & elegant e-commerce UI with fast transitions, product showcase, and luxurious feel. Using HTML CSS Tailwind Javascript and React.",
+        live_demo:"https://e-comarche-react-otoq.vercel.app",
+        github:"https://github.com/Nazmul-Hasan-18/E-comarche-react.git"
 
     },
     {
-        id: 3,
+        id: 2,
         category_id: 1,
+        img: Ecomarse1,
+        name: "Premium Fashion Store",
+        tittle: "Minimal & elegant e-commerce UI with fast transitions, product showcase, and luxurious feel. Using HTML CSS Tailwind Javascript and React.",
+        live_demo:"https://nested-e-comarse-kr9r.vercel.app",
+        github:"https://github.com/Nazmul-Hasan-18/Nested_E-comarse.git"
 
     },
+
     // {
     //     id:2,
     //     category_id : 2,
@@ -49,12 +58,12 @@ const ProjectDetails = ({ data }) => {
                             <p className='font-[poppins] text-[12px]  lg:text-[15px] lg:mt-2 text-gray-300'>{data.tittle}</p>
 
                             <div className='flex justify-between mt-8  '>
-                                <Link>
+                                <Link to={data.github}>
                                     <div className='btn-anim relative z-1 bg-transparent overflow-hidden  text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
                                         <p className='text-[13px] lg:text-[16px]'>GitHub</p>
                                     </div>
                                 </Link>
-                                <Link>
+                                <Link to={data.live_demo}>
                                     <div className='btn-anim relative z-1 bg-transparent overflow-hidden text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
                                         <p className='text-[13px] lg:text-[16px]'>Live Demo</p>
                                     </div>
@@ -65,7 +74,6 @@ const ProjectDetails = ({ data }) => {
                     </div>
                 )
             }
-            <img src="https://ibb.co.com/F4DqXHXv" alt="" />
         </div>
     );
 };
