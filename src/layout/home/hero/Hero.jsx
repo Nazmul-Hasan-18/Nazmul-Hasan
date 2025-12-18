@@ -13,7 +13,7 @@ const Hero = () => {
                 <h1 className='lg:text-[58px] text-[34px] font-bold mt-3 font-[poppins]'>I,m <span className='main_color'>Nazmul Hasan</span></h1>
                 <h2 className='font-[Quicksand] text-2xl lg:text-4xl font-bold'>Jr. Front-End Developer</h2>
                 <div className='flex  items-center gap-2.5 lg:gap-4 mt-4 lg:mt-8'>
-                    <Link>
+                    <Link to="https://github.com/Nazmul-Hasan-18">
                     <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300 lg:p-3 p-2.5  rounded-full text-md lg:text-xl'>
                         <FaGithub />
                     </div>
@@ -23,19 +23,18 @@ const Hero = () => {
                         <FaLinkedinIn />
                     </div>
                     </Link>
-                    <Link>
+                    <Link to="https://www.facebook.com/share/14UhohosREW/">
                     <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300  lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
                         <FaFacebookF />
                     </div>
                     </Link>
-                    <Link>
+                    <Link to="https://www.instagram.com/nazmul__18?igsh=d2FhNG10dDNrdzFy">
                     <div className='hover:bg-[#00adb5] bg-gray-900 text-[#00adb5] hover:text-white box cursor-pointer duration-300  lg:p-3 p-2.5  hover:main-color rounded-full text-md lg:text-xl'>
                         <FaInstagram />
                     </div>
                     </Link>
                 </div>
                 <div className='flex items-center py-5 gap-4 lg:gap-5 mt-3 lg:mt-6'>
-                    
                         <Link>
                         <div className='btn-anim relative z-1 bg-transparent overflow-hidden flex text-white items-center gap-1.5 lg:gap-2 font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
                             <p className='text-sm lg:text-[16px]'>Here Me</p>

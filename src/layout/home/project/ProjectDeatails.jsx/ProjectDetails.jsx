@@ -1,6 +1,7 @@
 import React from 'react';
 import Ecomarse from "./../../../../img/Screenshot.png"
 import Ecomarse1 from "./../../../../img/nested.png"
+import Learning from "./../../../../img/learning.png"
 import { Link } from 'react-router';
 const items = [
     {
@@ -17,18 +18,22 @@ const items = [
         id: 2,
         category_id: 1,
         img: Ecomarse1,
-        name: "Premium Fashion Store",
-        tittle: "Minimal & elegant e-commerce UI with fast transitions, product showcase, and luxurious feel. Using HTML CSS Tailwind Javascript and React.",
+        name: "Nest Mart E-commarce",
+        tittle: "Nest Mart is a modern e-commerce app built with React, Tailwind CSS, and React Router, offering smooth navigation and product filtering.",
         live_demo:"https://nested-e-comarse-kr9r.vercel.app",
         github:"https://github.com/Nazmul-Hasan-18/Nested_E-comarse.git"
 
     },
 
-    // {
-    //     id:2,
-    //     category_id : 2,
-
-    // },
+    {
+        id: 3,
+        category_id: 2,
+        img:Learning,
+        name: "E-learning Platfrom",
+        tittle: "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, and a smooth shopping experience.",
+        live_demo:"https://learning-management-next-js.vercel.app/",
+        github:"https://github.com/Nazmul-Hasan-18/learning-management-next.js.git"
+    },
 
     // {
     //     id:4,

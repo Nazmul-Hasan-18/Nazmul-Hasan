@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div className='font-[poppins] fixed w-full z-40'>
-      <div className='py-4 lg:py-3 shadow-gray-600 bg-white/20 backdrop-blur-md'>
+      <div className='py-4 lg:py-5 shadow-gray-600 bg-white/20 backdrop-blur-md'>
         <div className='container mx-auto px-4 md:px-46 flex items-center justify-between'>
 
           {/* Logo */}
@@ -23,7 +23,7 @@ const Header = () => {
           {/* Desktop Menu */}
           <div className='hidden md:flex items-center gap-9 text-[17px] text-white'>
             <NavLink><p className='hover:text-gray-300 duration-300'>Home</p></NavLink>
-            <NavLink to="/aboutWorks"><p className='hover:text-gray-300 duration-300'>About</p></NavLink>
+            <NavLink to="/about"><p className='hover:text-gray-300 duration-300'>About</p></NavLink>
             <NavLink><p className='hover:text-gray-300 duration-300'>Service</p></NavLink>
             <NavLink><p className='hover:text-gray-300 duration-300'>Project</p></NavLink>
             <NavLink>
