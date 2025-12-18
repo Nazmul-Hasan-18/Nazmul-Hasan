@@ -50,7 +50,7 @@ const items = [
 const ProjectDetails = ({ data }) => {
     const match_id = data ? items.filter(item => item.category_id == data) : items
     return (
-        <div className='container mx-auto lg:px-66 px-6  grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-22 pt-10 lg:pt-18 '>
+        <div className='container mx-auto lg:px-76 px-6  grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 pt-10 lg:pt-18 '>
             {
                 match_id.map(data =>
                     <div className='group border-2  border-[#00adb5]  rounded-4xl course cursor-pointer duration-500'>
@@ -64,12 +64,12 @@ const ProjectDetails = ({ data }) => {
 
                             <div className='flex justify-between mt-8  '>
                                 <Link to={data.github}>
-                                    <div className='btn-anim relative z-1 bg-transparent overflow-hidden  text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
+                                    <div className='btn-anim relative z-1 bg-transparent overflow-hidden  text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-md boxh duration-500'>
                                         <p className='text-[13px] lg:text-[16px]'>GitHub</p>
                                     </div>
                                 </Link>
                                 <Link to={data.live_demo}>
-                                    <div className='btn-anim relative z-1 bg-transparent overflow-hidden text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
+                                    <div className='btn-anim relative z-1 bg-transparent overflow-hidden text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-md boxh duration-500'>
                                         <p className='text-[13px] lg:text-[16px]'>Live Demo</p>
                                     </div>
                                 </Link>

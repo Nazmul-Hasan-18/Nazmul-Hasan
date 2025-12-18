@@ -35,12 +35,12 @@ const items = [
 ]
 const Bottom = () => {
     return (
-        <div className='lg:grid grid grid-cols-1 lg:grid-cols-3 gap-7  container mx-auto lg:px-46 px-6 py-12 font-["Rajdhani"] '>
+        <div className='lg:grid grid grid-cols-1 lg:grid-cols-3 gap-7  container mx-auto lg:px-46 px-6 pt-12 pb-5 font-["Rajdhani"] '>
             {
                 items.map(item=>(
                     <div className=' bg-gradient-to-b from-[#1e1533] to-[#00adb5] hover:scale-110 px-8 py-6 rounded-lg border duration-500  border-[#00adb5] hover:bg-[#27194C] backdrop-blur-2xl '>
                         <div className='flex '>
-                            <p className='bg-white py-2.5 px-3 rounded-md bg-gradient-to-r from-[#00adb5] to-[#2af2fd] text-xl lg:text-3xl text-white'>{item.icon}</p>
+                            <p className='bg-white py-2.5 px-3 rounded-md bg-gradient-to-r from-[#00adb5] to-[#7ff4fa] text-xl lg:text-3xl text-white'>{item.icon}</p>
                         </div>
                         <h2 className=' text-[22px] lg:text-[27px] font-bold text-white mt-6'>{item.name}</h2>
                         <p className='text-gray-300 text-sm lg:text-[16px] mt-1 lg:mt-2'>{item.descriotion}</p>
