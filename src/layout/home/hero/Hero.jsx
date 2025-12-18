@@ -41,7 +41,7 @@ const Hero = () => {
                         I'm <span className='main_color'>{displayText}</span>
                         <span className="animate-pulse  text-[34px] font-semibold lg:text-5xl">|</span>
                     </h1>
-                    <div class="loader font-[Quicksand] text-[20px] lg:text-[34px] font-bold flex items-center gap-2 lg:gap-4">
+                    <div class="loader font-[Quicksand] text-[20px] lg:text-[33px] mt-1 lg:mt-0 font-bold flex items-center gap-2 lg:gap-4">
                         <p>Jr.</p>
                         <div class="words  lg:py-1 py-0">
                             <span className="word ">MERN Stack Development</span>

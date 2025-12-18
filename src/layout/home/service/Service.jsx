@@ -4,7 +4,7 @@ import Bottom from './component/Bottom';
 
 const Service = () => {
     return (
-        <div className='bg-black py-15 lg:py-25 '>
+        <div className='bg-gray-900 py-15 lg:py-25 '>
             <Top></Top>
             <Bottom></Bottom>
         </div>

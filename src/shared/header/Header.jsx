@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div className='font-[poppins] fixed w-full z-40'>
-      <div className='py-4 lg:py-5 shadow-gray-600 bg-white/20 backdrop-blur-md'>
+      <div className='py-4 lg:py-4 shadow-gray-600 bg-white/20 backdrop-blur-md'>
         <div className='container mx-auto px-4 md:px-46 flex items-center justify-between'>
 
           {/* Logo */}
