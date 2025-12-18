@@ -1,5 +1,54 @@
 @import "tailwindcss";
 
+
+/* h2 tag er animation */
+:root {
+  --bg-color: #000;
+}
+
+:root {
+  --bg-color: #000; /* hero section background */
+}
+
+
+
+.words {
+  overflow: hidden;
+  position: relative;
+  height: 1.8em;
+}
+
+.words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--bg-color) 10%,
+    transparent 30%,
+    transparent 70%,
+    var(--bg-color) 90%
+  );
+  z-index: 20;
+}
+
+.word {
+  display: block;
+  height: 1.8em;
+  animation: spin2 4s infinite;
+}
+@keyframes spin2 {
+  0%, 35% {
+    transform: translateY(0);
+  }
+  50%, 85% {
+    transform: translateY(-1.8em);
+  }
+  100% {
+    transform: translateY(-3.6em);
+  }
+}
+
+
 :root{
     --main-color:#00adb5
 }
