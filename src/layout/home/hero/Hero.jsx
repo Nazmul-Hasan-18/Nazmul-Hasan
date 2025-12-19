@@ -35,7 +35,8 @@ const Hero = () => {
     return (
         <div className='w-full relative top-0 bg-black text-white pt-10 pb-15 lg:py-20'>
             <div className='container mx-auto lg:px-46 px-6 mt-20 lg:grid grid grid-cols-1 lg:grid-cols-2 items-center'>
-                <div className=''>
+                <div className='' data-aos="fade-up"
+                    data-aos-duration="3000">
                     <p className='uppercase font-semibold font-[Quicksand]  text-gray-100'>hello,</p>
                     <h1 className='lg:text-[58px] text-[33px] font-bold mt-3 font-[poppins]'>
                         I'm <span className='main_color'>{displayText}</span>
@@ -44,9 +45,9 @@ const Hero = () => {
                     <div class="loader font-[Quicksand] text-[20px] lg:text-[33px] mt-1 lg:mt-0 font-bold flex items-center gap-2 lg:gap-4">
                         <p>Jr.</p>
                         <div class="words  lg:py-1 py-0">
-                            <span className="word ">MERN Stack Development</span>
-                            <span className="word">Front-End Development</span>
-                            <span className="word">MERN Stack Development</span>
+                            <span className="word ">MERN Stack Developer</span>
+                            <span className="word">Front-End Developer</span>
+                            <span className="word">MERN Stack Developer</span>
                         </div>
                     </div>
                     <div className='flex  items-center gap-2.5 lg:gap-4 mt-4 lg:mt-8'>
@@ -91,7 +92,8 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className=' flex  flex-col lg:flex-row items-center mt-10 lg:mt-0'>
+                <div className=' flex  flex-col lg:flex-row items-center mt-10 lg:mt-0' data-aos="fade-up"
+                    data-aos-duration="3000">
                     <img className='lg:w-106 w-66 ml-0 lg:ml-20 rounded-full img_box bg-white' src={img} alt="" />
                 </div>
             </div>

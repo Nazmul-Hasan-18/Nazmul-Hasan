@@ -22,7 +22,8 @@ const ProjectType = () => {
         setData(id)
     }
     return (
-        <div>
+        <div data-aos="fade-up"
+            data-aos-duration="3000">
             <div className='container mx-auto px-6 lg:px-46  flex lg:flex-row flex-col lg:justify-between lg:items-center '>
                 <div className='font-[poppins]'>
                     <h2 className='lg:text-[45px] text-[32px] text-white font-semibold'>My Recent <span className='main_color'>Works</span></h2>
@@ -39,7 +40,7 @@ const ProjectType = () => {
                 </div>
             </div>
             <div>
-                <ProjectDetails data ={data} ></ProjectDetails>
+                <ProjectDetails data={data} ></ProjectDetails>
             </div>
         </div>
     );

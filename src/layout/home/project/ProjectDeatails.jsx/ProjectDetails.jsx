@@ -10,8 +10,8 @@ const items = [
         img: Ecomarse,
         name: "Premium Fashion Store",
         tittle: "Minimal & elegant e-commerce UI with fast transitions, product showcase, and luxurious feel. Using HTML CSS Tailwind Javascript and React.",
-        live_demo:"https://e-comarche-react-otoq.vercel.app",
-        github:"https://github.com/Nazmul-Hasan-18/E-comarche-react.git"
+        live_demo: "https://e-comarche-react-otoq.vercel.app",
+        github: "https://github.com/Nazmul-Hasan-18/E-comarche-react.git"
 
     },
     {
@@ -20,19 +20,19 @@ const items = [
         img: Ecomarse1,
         name: "Nest Mart E-commarce",
         tittle: "Nest Mart is a modern e-commerce app built with React, Tailwind CSS, and React Router, offering smooth navigation and product filtering.",
-        live_demo:"https://nested-e-comarse-kr9r.vercel.app",
-        github:"https://github.com/Nazmul-Hasan-18/Nested_E-comarse.git"
+        live_demo: "https://nested-e-comarse-kr9r.vercel.app",
+        github: "https://github.com/Nazmul-Hasan-18/Nested_E-comarse.git"
 
     },
 
     {
         id: 3,
         category_id: 2,
-        img:Learning,
+        img: Learning,
         name: "E-learning Platfrom",
         tittle: "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, and a smooth shopping experience.",
-        live_demo:"https://learning-management-next-js.vercel.app/",
-        github:"https://github.com/Nazmul-Hasan-18/learning-management-next.js.git"
+        live_demo: "https://learning-management-next-js.vercel.app/",
+        github: "https://github.com/Nazmul-Hasan-18/learning-management-next.js.git"
     },
 
     // {
@@ -53,27 +53,29 @@ const ProjectDetails = ({ data }) => {
         <div className='container mx-auto lg:px-76 px-6  grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 pt-10 lg:pt-18 '>
             {
                 match_id.map(data =>
-                    <div className='group border-2  border-[#00adb5]  rounded-4xl course cursor-pointer duration-500'>
-                        <div className=' relative overflow-hidden rounded-t-4xl'>
-                            <img className='w-130  group-hover:scale-110 duration-500 transition-all ease-in-out rounded-t-4xl' src={data.img} alt="" />
-                            <div className='bg-gradient-to-t from-black/10 to-white/2  w-full absolute top-0 h-full rounded-t-4xl'></div>
-                        </div>
-                        <div className='text-white px-8 py-7 bg-whit/10 backdrop-blur-[5px] rounded-b-4xl'>
-                            <h2 className='lg:text-[27px] text-[20px] text font-[Quicksand] font-bold '>{data.name}</h2>
-                            <p className='font-[poppins] text-[12px]  lg:text-[15px] lg:mt-2 text-gray-300'>{data.tittle}</p>
+                    <div >
+                        <div className='group border-2  border-[#00adb5]  rounded-4xl course cursor-pointer duration-500'>
+                            <div className=' relative overflow-hidden rounded-t-4xl'>
+                                <img className='w-130  group-hover:scale-110 duration-500 transition-all ease-in-out rounded-t-4xl' src={data.img} alt="" />
+                                <div className='bg-gradient-to-t from-black/10 to-white/2  w-full absolute top-0 h-full rounded-t-4xl'></div>
+                            </div>
+                            <div className='text-white px-8 py-7 bg-whit/10 backdrop-blur-[5px] rounded-b-4xl'>
+                                <h2 className='lg:text-[27px] text-[20px] text font-[Quicksand] font-bold '>{data.name}</h2>
+                                <p className='font-[poppins] text-[12px]  lg:text-[15px] lg:mt-2 text-gray-300'>{data.tittle}</p>
 
-                            <div className='flex justify-between mt-8  '>
-                                <Link to={data.github}>
-                                    <div className='btn-anim relative z-1 bg-transparent overflow-hidden  text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-md boxh duration-500'>
-                                        <p className='text-[13px] lg:text-[16px]'>GitHub</p>
-                                    </div>
-                                </Link>
-                                <Link to={data.live_demo}>
-                                    <div className='btn-anim relative z-1 bg-transparent overflow-hidden text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-md boxh duration-500'>
-                                        <p className='text-[13px] lg:text-[16px]'>Live Demo</p>
-                                    </div>
-                                </Link>
+                                <div className='flex justify-between mt-8  '>
+                                    <Link to={data.github}>
+                                        <div className='btn-anim relative z-1 bg-transparent overflow-hidden  text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-md boxh duration-500'>
+                                            <p className='text-[13px] lg:text-[16px]'>GitHub</p>
+                                        </div>
+                                    </Link>
+                                    <Link to={data.live_demo}>
+                                        <div className='btn-anim relative z-1 bg-transparent overflow-hidden text-white items-center  font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-md boxh duration-500'>
+                                            <p className='text-[13px] lg:text-[16px]'>Live Demo</p>
+                                        </div>
+                                    </Link>
 
+                                </div>
                             </div>
                         </div>
                     </div>
