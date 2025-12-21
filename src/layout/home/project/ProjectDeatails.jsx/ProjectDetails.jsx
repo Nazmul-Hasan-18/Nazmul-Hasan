@@ -30,7 +30,7 @@ const items = [
         category_id: 2,
         img: Learning,
         name: "E-learning Platfrom",
-        tittle: "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, and a smooth shopping experience.",
+        tittle: "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, ",
         live_demo: "https://learning-management-next-js.vercel.app/",
         github: "https://github.com/Nazmul-Hasan-18/learning-management-next.js.git"
     },
@@ -50,16 +50,16 @@ const items = [
 const ProjectDetails = ({ data }) => {
     const match_id = data ? items.filter(item => item.category_id == data) : items
     return (
-        <div className='container mx-auto lg:px-76 px-6  grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 pt-10 lg:pt-18 '>
+        <div className='container mx-auto lg:px-46 px-6  grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-8 pt-10 lg:pt-18 '>
             {
                 match_id.map(data =>
                     <div >
                         <div className='group border-2  border-[#00adb5]  rounded-4xl course cursor-pointer duration-500'>
                             <div className=' relative overflow-hidden rounded-t-4xl'>
-                                <img className='w-130  group-hover:scale-110 duration-500 transition-all ease-in-out rounded-t-4xl' src={data.img} alt="" />
+                                <img className='h-60  group-hover:scale-110 duration-500 transition-all ease-in-out rounded-t-4xl' src={data.img} alt="" />
                                 <div className='bg-gradient-to-t from-black/10 to-white/2  w-full absolute top-0 h-full rounded-t-4xl'></div>
                             </div>
-                            <div className='text-white px-8 py-7 bg-whit/10 backdrop-blur-[5px] rounded-b-4xl'>
+                            <div className='text-white px-4 py-7 bg-whit/10 backdrop-blur-[5px] rounded-b-4xl'>
                                 <h2 className='lg:text-[27px] text-[20px] text font-[Quicksand] font-bold '>{data.name}</h2>
                                 <p className='font-[poppins] text-[12px]  lg:text-[15px] lg:mt-2 text-gray-300'>{data.tittle}</p>
 

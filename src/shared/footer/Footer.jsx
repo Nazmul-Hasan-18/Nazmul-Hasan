@@ -4,9 +4,9 @@ import { Link, NavLink } from 'react-router';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-900' data-aos="fade-up"
-            data-aos-duration="3000">
-            <div className='container mx-auto  font-[poppins] py-10 lg:py-15  '>
+        <div className='bg-gray-900' >
+            <div className='container mx-auto  font-[poppins] py-10 lg:py-15  ' data-aos="fade-up"
+                data-aos-duration="3000">
                 <div className='flex flex-col items-center gap-5'>
                     <div className='flex items-center gap-4 lg:gap-9 text-[12px] lg:text-[17px] text-white'>
                         <NavLink ><p className=' duration-300'>Home</p></NavLink>
