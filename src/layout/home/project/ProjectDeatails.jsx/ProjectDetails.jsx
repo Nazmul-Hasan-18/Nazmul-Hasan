@@ -56,10 +56,10 @@ const ProjectDetails = ({ data }) => {
                     <div >
                         <div className='group border-2  border-[#00adb5]  rounded-4xl course cursor-pointer duration-500'>
                             <div className=' relative overflow-hidden rounded-t-4xl'>
-                                <img className='h-60  group-hover:scale-110 duration-500 transition-all ease-in-out rounded-t-4xl' src={data.img} alt="" />
+                                <img className='h-55 w-full  group-hover:scale-110 duration-500 transition-all ease-in-out rounded-t-4xl' src={data.img} alt="" />
                                 <div className='bg-gradient-to-t from-black/10 to-white/2  w-full absolute top-0 h-full rounded-t-4xl'></div>
                             </div>
-                            <div className='text-white px-4 py-7 bg-whit/10 backdrop-blur-[5px] rounded-b-4xl'>
+                            <div className='text-white px-4 py-7 bg-white/10  backdrop-blur-[50px] rounded-b-4xl'>
                                 <h2 className='lg:text-[27px] text-[20px] text font-[Quicksand] font-bold '>{data.name}</h2>
                                 <p className='font-[poppins] text-[12px]  lg:text-[15px] lg:mt-2 text-gray-300'>{data.tittle}</p>
 
