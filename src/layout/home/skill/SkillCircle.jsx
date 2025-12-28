@@ -7,17 +7,27 @@ const SkillCircle = ({ percent }) => {
   // Responsive circle size
   const getSize = () => {
     if (window.innerWidth < 640) return 120; // mobile
-    return 200; // desktop
+    return 190; // desktop
+  };
+
+  // Responsive stroke (border)
+  const getStroke = () => {
+    if (window.innerWidth < 640) return 12; // mobile
+    return 17; // desktop
   };
 
   const [size, setSize] = useState(getSize());
-  const stroke = 17;
+  const [stroke, setStroke] = useState(getStroke());
+
   const radius = (size - stroke) / 2;
   const circumference = 2 * Math.PI * radius;
 
-  // Update size on window resize
+  // Update size & stroke on resize
   useEffect(() => {
-    const handleResize = () => setSize(getSize());
+    const handleResize = () => {
+      setSize(getSize());
+      setStroke(getStroke());
+    };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);

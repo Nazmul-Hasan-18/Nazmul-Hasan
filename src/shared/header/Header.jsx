@@ -17,7 +17,7 @@ const Header = () => {
             <div className='text-[35px] md:text-[48px]'>
               <FaAccusoft />
             </div>
-            <h2 className='text-2xl md:text-4xl  xl font-bold'>NH.DEV</h2>
+            <h2 className='text-2xl md:text-4xl  xl font-bold'>NH. <span className='main_color'>DEV</span></h2>
           </div>
 
           {/* Desktop Menu */}
@@ -34,8 +34,8 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className='md:hidden text-white text-2xl cursor-pointer' onClick={() => setOpen(!open)}>
-            {open ? <RxCross2 /> : <HiOutlineMenuAlt1 />}
+          <div className='md:hidden text-white text-[25px] cursor-pointer' onClick={() => setOpen(!open)}>
+            {open ? <RxCross2 /> : <HiOutlineMenuAlt1 /> }
           </div>
         </div>
 

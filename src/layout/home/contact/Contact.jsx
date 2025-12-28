@@ -8,7 +8,7 @@ const Contact = () => {
       <div className='container mx-auto px-6 lg:px-46 font-["Poppins"] ' data-aos="fade-up"
      data-aos-duration="3000">
         <h3 className="text-3xl lg:text-4xl font-semibold text-white text-center">
-          Here Me
+          Here <span className="main_color">Me</span>
         </h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 pt-10 lg:pt-0">
           <div className=" lg:py-10  ">
