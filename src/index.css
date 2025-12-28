@@ -102,3 +102,22 @@
     border:1px solid white;
     padding: 10px ;
 }
+
+
+/* skill animaiton */
+
+.heart {
+  position: absolute;
+  font-size: 2rem;
+  width: 100%;
+  bottom: 45px;
+  text-align: center;
+  animation: heart 0.8s linear infinite;
+  text-shadow: 0 0 10px #f50057;
+}
+
+@keyframes heart {
+  0% { transform: scale(1.07); }
+  80% { transform: scale(1); }
+  100% { transform: scale(0.8); }
+}
