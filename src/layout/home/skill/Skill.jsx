@@ -54,10 +54,10 @@ const Skill = () => {
           data-aos-duration="3000">
           <h2 className='lg:text-[45px] text-[32px] text-white font-semibold font-[poppins]'>My <span className='main_color'>Skill</span></h2>
         </div>
-        <div className='container mx-auto px-6 lg:px-46 grid grid-cols-1 lg:grid-cols-12 gap-10'>
+        <div className='container mx-auto px-6 lg:px-76 '>
 
           {/* LEFT */}
-          <div className='lg:col-span-8'>
+          <div className=''>
             <div className='grid grid-cols-2 lg:grid-cols-3 gap-4  lg:gap-6'>
               {items.map((item, i) => (
                 <div data-aos="fade-up"
@@ -83,9 +83,7 @@ const Skill = () => {
           </div>
 
           {/* RIGHT */}
-          <div className='bg-red-100 lg:col-span-4 w-full lg:block hidden'>
-            aaaaaaaaaaaa
-          </div>
+         
         </div>
       </div>
     </div>
