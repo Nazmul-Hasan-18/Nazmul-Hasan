@@ -5,7 +5,7 @@ import SkillCircle from './SkillCircle';
 const items = [
   {
     name: "HTML",
-    Icon: <FaHtml5 />,
+    // Icon: <FaHtml5 />,
     rating: 95
   },
   {

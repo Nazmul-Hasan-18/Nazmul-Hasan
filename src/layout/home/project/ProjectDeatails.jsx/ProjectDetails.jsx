@@ -2,6 +2,7 @@ import React from 'react';
 import Ecomarse from "./../../../../img/Screenshot.png"
 import Ecomarse1 from "./../../../../img/nested.png"
 import Learning from "./../../../../img/learning.png"
+import carBooking from "./../../../../img/carBooking.png"
 import { Link } from 'react-router';
 const items = [
     {
@@ -14,8 +15,26 @@ const items = [
         github: "https://github.com/Nazmul-Hasan-18/E-comarche-react.git"
 
     },
-    {
+       {
         id: 2,
+        category_id: 2,
+        img: Learning,
+        name: "E-learning Platfrom",
+        tittle: "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, ",
+        live_demo: "https://learning-management-next-js.vercel.app/",
+        github: "https://github.com/Nazmul-Hasan-18/learning-management-next.js.git"
+    },
+    {
+        id: 4,
+        category_id: 3,
+        img: carBooking,
+        name: "Car Booking Web App",
+        tittle: "A responsive car booking web application built with React, featuring dynamic routing, reusable components, and a clean user interface for seamless vehicle selection.",
+        live_demo: "https://car-booking-two-psi.vercel.app/",
+        github: "https://github.com/Nazmul-Hasan-18/car_booking.git"
+    },
+    {
+        id: 3,
         category_id: 1,
         img: Ecomarse1,
         name: "Nest Mart E-commarce",
@@ -25,15 +44,7 @@ const items = [
 
     },
 
-    {
-        id: 3,
-        category_id: 2,
-        img: Learning,
-        name: "E-learning Platfrom",
-        tittle: "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, ",
-        live_demo: "https://learning-management-next-js.vercel.app/",
-        github: "https://github.com/Nazmul-Hasan-18/learning-management-next.js.git"
-    },
+ 
 
     // {
     //     id:4,
