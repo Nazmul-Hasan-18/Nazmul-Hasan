@@ -73,9 +73,9 @@ const Hero = () => {
                         </Link>
                     </div>
                     <div className='flex items-center py-5 gap-4 lg:gap-5 mt-3 lg:mt-6'>
-                        <Link>
+                        <Link to='https://drive.google.com/file/d/1TKKNd-xn2fiuxUXQlfFP0iWTAg7kHvQi/view?usp=drivesdk'>
                             <div className='btn-anim relative z-1 bg-transparent overflow-hidden flex text-white items-center gap-1.5 lg:gap-2 font-[poppins] backg py-2 px-4 lg:px-6 lg:py-2.5 rounded-sm boxh duration-500'>
-                                <Link to="https://drive.google.com/file/d/1zkqLcTrh5zAVQgWGT6s7wbrH2RNfA_zX/view?usp=drivesdk"><p className='text-sm lg:text-[16px]'>Resume</p></Link>
+                                <p className='text-sm lg:text-[16px]'>Resume</p>
                                 <div className='font-bold text-lg lg:text-[22px]'>
                                     <AiOutlineRetweet />
                                 </div>
